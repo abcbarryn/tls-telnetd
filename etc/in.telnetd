@@ -1,0 +1,9 @@
+cert = /etc/ssl/certs/stunnel.pem
+# Create or import a certificate at /etc/ssl/certs/stunnel.pem
+fips = no
+exec = /usr/sbin/in.telnetd
+# Run the normal telnet daemon over TLS
+transparent = source
+# Pass the client IP address
+verify = 0
+# Don't verify a client certificate
