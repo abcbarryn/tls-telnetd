@@ -4,4 +4,5 @@ To instell, install stunnel for your Linux distribution, generate a certificate 
 killall -1 /usr/sbin/xinetd
 
 To disable the telnets service, edit /etc/xinetd.d/telnets and change disable=yes and killall -1 /usr/sbin/xinetd
+
 To re-enable the telnets service, edit /etc/xinetd.d/telnets and change disable=no and killall -1 /usr/sbin/xinetd
